@@ -42,17 +42,70 @@ pip install mdtraj numpy numba tqdm
 
 ```bash
 # 1) Trajectory → BAT (writes to output/all/<SYSTEM>)
-python scripts/traj2bat.py --system_name <SYSTEM> -v
+python xyz2bat.py --system_name <SYSTEM> -v
 
 # 2) (Optional) Filter to backbone or noH (writes to output/<MODE>/<SYSTEM>)
-python scripts/filter_dofs.py <SYSTEM> --filter backbone -v
+python extract_region.py <SYSTEM> --filter backbone -v
 # or
-python scripts/filter_dofs.py <SYSTEM> --filter noH -v
+python extract_region.py <SYSTEM> --filter noH -v
 
 # 3) Entropy + Mutual Information (writes em.npy in chosen region)
-python scripts/entropy_mi.py --system_name <SYSTEM> --region backbone --bins 50 -v
+python entropy_sampler.py --system_name <SYSTEM> --region backbone --bins 50 -v
 
 # 4) Final entropy (kcal/mol) with optional residue selection (1-based)
-python scripts/final_entropy.py --system_name <SYSTEM> --region backbone --temperature 298.15 -v
+python entropy_compiler.py --system_name <SYSTEM> --region backbone --temperature 298.15 -v
 # e.g. limit to residues 1–120 and 150:
-python scripts/final_entropy.py --system_name <SYSTEM> --region backbone --temperature 298.15 --residues "1-120,150" -v
+python entropy_compiler.py --system_name <SYSTEM> --region backbone --temperature 298.15 --residues "1-120,150" -v
+
+```
+
+## Example Run (Model System: FC_WT/no exclusion: all)
+
+```bash
+# 1) Amber prmtop and nc clean up
+parm fc_wt.prmtop
+trajin md.nc 1 100000 1
+strip !(:1-17)
+trajout cleaned_nc netcdf4
+run
+quit
+
+parm fc_wt.prmtop
+parmstrip !(:1-17)
+parmwrite out cleaned_prmtop.prmtop
+run
+quit
+
+# 1) Trajectory → BAT (writes to output/all/<SYSTEM>)
+python traj2bat.py --system_name fc_wt -v
+
+[INFO] Input directory:  dataset/fc_wt
+[INFO] Output directory: output/all/fc_wt
+[INFO] Using topology file: test.prmtop
+[INFO] [1/1] Loading: test.nc
+[INFO] Saved: output/all/fc_wt/topology.txt
+[INFO] Saved: output/all/fc_wt/res_data.json
+[INFO] Saved: output/all/fc_wt/dof1.npy (shape=(50000, 1385))
+[INFO] All files processed successfully.
+
+# 2) Entropy + Mutual Information (writes em.npy in chosen region)
+python entropy_sampler.py --system_name fc_wt --bins 50 -v
+
+H1D: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1385/1385 [00:01<00:00, 1333.20it/s]
+[INFO] Computing pairwise MI (symmetric)...
+MI: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1385/1385 [01:45<00:00, 13.16it/s]
+[INFO] Saved entropy/MI matrix: output/all/fc_wt/em.npy (shape=(1385, 1385))
+
+# 4) Final entropy (kcal/mol)
+python entropy_sampler.py --system_name fc_wt --temperature 300.0 -v
+[INFO] Temperature (K) = 300.00
+[INFO] Original atom count (from topology): 250
+[INFO] Loaded 1385 DOFs; em.npy shape: (1385, 1385)
+[INFO] No residue selection: using all residues.
+[INFO] Allowed atoms after residue selection: 250
+[INFO] Effective atom_num for scaling = 250
+[INFO] Original DOFs: 1385; Kept DOFs: 1385
+[INFO] S1D_bond=-1550.293516, S1D_angle=-363.367220, S1D_torsion=11.532246
+[INFO] MIST_bond=236.893183, MIST_angle=236.400570, MIST_torsion=310.480063
+[INFO] FINAL ENTROPY (kcal/mol) = -1601.230950
+```
