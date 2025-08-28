@@ -76,7 +76,7 @@ parmwrite out cleaned_prmtop.prmtop
 run
 quit
 
-# 1) Trajectory → BAT (writes to output/all/<SYSTEM>)
+# 1) Trajectory → BAT (writes to output/all/fc_wt)
 python traj2bat.py --system_name fc_wt -v
 
 [INFO] Input directory:  dataset/fc_wt
