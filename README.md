@@ -63,20 +63,22 @@ python entropy_compiler.py --system_name <SYSTEM> --region backbone --temperatur
 
 ```bash
 # 1) Amber prmtop and nc clean up
+# Load topology
 parm fc_wt.prmtop
-trajin md.nc 1 100000 1
-strip !(:1-17)
-trajout ./dataset/cleaned_fc_wt.nc netcdf4
-run
-quit
 
-parm fc_wt.prmtop
+# --- Write a pruned topology with only residues 1–17 -------------------
 parmstrip !(:1-17)
 parmwrite out ./dataset/cleaned_fc_wt.prmtop
+
+# --- Load trajectory, keep residues 1–17, and write cleaned NetCDF -----
+trajin md.nc 1 last 1           # start last stride
+strip  !(:1-17)                 # remove everything NOT 1–17
+trajout ./dataset/cleaned_fc_wt.nc netcdf4
+
 run
 quit
 
-# 1) Trajectory → BAT (writes to output/all/fc_wt)
+# 2) Trajectory → BAT (writes to output/all/fc_wt)
 python traj2bat.py --system_name fc_wt -v
 
 [INFO] Input directory:  dataset/fc_wt
@@ -88,7 +90,7 @@ python traj2bat.py --system_name fc_wt -v
 [INFO] Saved: output/all/fc_wt/dof1.npy (shape=(50000, 1385))
 [INFO] All files processed successfully.
 
-# 2) Entropy + Mutual Information (writes em.npy in chosen region)
+# 3) Entropy + Mutual Information (writes em.npy in chosen region)
 python entropy_sampler.py --system_name fc_wt --bins 50 -v
 
 [INFO] Data directory: output/all/fc_wt
