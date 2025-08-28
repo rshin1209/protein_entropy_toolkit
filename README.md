@@ -91,6 +91,12 @@ python traj2bat.py --system_name fc_wt -v
 # 2) Entropy + Mutual Information (writes em.npy in chosen region)
 python entropy_sampler.py --system_name fc_wt --bins 50 -v
 
+[INFO] Data directory: output/all/fc_wt
+[INFO] Loaded topology with 1385 DOFs.
+[INFO] Computed jtype_list with 1385 entries.
+[INFO] Loaded dof1.npy (shape=(500, 1385))
+[INFO] DOFs stacked -> (1385, 500)
+[INFO] Computing 1D entropies for 1385 DOFs with 50 bins.
 H1D: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1385/1385 [00:01<00:00, 1333.20it/s]
 [INFO] Computing pairwise MI (symmetric)...
 MI: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1385/1385 [01:45<00:00, 13.16it/s]
