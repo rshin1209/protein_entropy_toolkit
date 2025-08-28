@@ -1,0 +1,1104 @@
+[
+  {
+    "residue_name": "GLY",
+    "residue_number": 1,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 0
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 1
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 2
+      },
+      {
+        "atom_name": "HA2",
+        "atom_index": 3
+      },
+      {
+        "atom_name": "HA3",
+        "atom_index": 4
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 5
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 6
+      }
+    ]
+  },
+  {
+    "residue_name": "THR",
+    "residue_number": 2,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 7
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 8
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 9
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 10
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 11
+      },
+      {
+        "atom_name": "HB",
+        "atom_index": 12
+      },
+      {
+        "atom_name": "CG2",
+        "atom_index": 13
+      },
+      {
+        "atom_name": "HG21",
+        "atom_index": 14
+      },
+      {
+        "atom_name": "HG22",
+        "atom_index": 15
+      },
+      {
+        "atom_name": "HG23",
+        "atom_index": 16
+      },
+      {
+        "atom_name": "OG1",
+        "atom_index": 17
+      },
+      {
+        "atom_name": "HG1",
+        "atom_index": 18
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 19
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 20
+      }
+    ]
+  },
+  {
+    "residue_name": "PRO",
+    "residue_number": 3,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 21
+      },
+      {
+        "atom_name": "CD",
+        "atom_index": 22
+      },
+      {
+        "atom_name": "HD2",
+        "atom_index": 23
+      },
+      {
+        "atom_name": "HD3",
+        "atom_index": 24
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 25
+      },
+      {
+        "atom_name": "HG2",
+        "atom_index": 26
+      },
+      {
+        "atom_name": "HG3",
+        "atom_index": 27
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 28
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 29
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 30
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 31
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 32
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 33
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 34
+      }
+    ]
+  },
+  {
+    "residue_name": "GLY",
+    "residue_number": 4,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 35
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 36
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 37
+      },
+      {
+        "atom_name": "HA2",
+        "atom_index": 38
+      },
+      {
+        "atom_name": "HA3",
+        "atom_index": 39
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 40
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 41
+      }
+    ]
+  },
+  {
+    "residue_name": "PHE",
+    "residue_number": 5,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 42
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 43
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 44
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 45
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 46
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 47
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 48
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 49
+      },
+      {
+        "atom_name": "CD1",
+        "atom_index": 50
+      },
+      {
+        "atom_name": "HD1",
+        "atom_index": 51
+      },
+      {
+        "atom_name": "CE1",
+        "atom_index": 52
+      },
+      {
+        "atom_name": "HE1",
+        "atom_index": 53
+      },
+      {
+        "atom_name": "CZ",
+        "atom_index": 54
+      },
+      {
+        "atom_name": "HZ",
+        "atom_index": 55
+      },
+      {
+        "atom_name": "CE2",
+        "atom_index": 56
+      },
+      {
+        "atom_name": "HE2",
+        "atom_index": 57
+      },
+      {
+        "atom_name": "CD2",
+        "atom_index": 58
+      },
+      {
+        "atom_name": "HD2",
+        "atom_index": 59
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 60
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 61
+      }
+    ]
+  },
+  {
+    "residue_name": "GLN",
+    "residue_number": 6,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 62
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 63
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 64
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 65
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 66
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 67
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 68
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 69
+      },
+      {
+        "atom_name": "HG2",
+        "atom_index": 70
+      },
+      {
+        "atom_name": "HG3",
+        "atom_index": 71
+      },
+      {
+        "atom_name": "CD",
+        "atom_index": 72
+      },
+      {
+        "atom_name": "OE1",
+        "atom_index": 73
+      },
+      {
+        "atom_name": "NE2",
+        "atom_index": 74
+      },
+      {
+        "atom_name": "HE21",
+        "atom_index": 75
+      },
+      {
+        "atom_name": "HE22",
+        "atom_index": 76
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 77
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 78
+      }
+    ]
+  },
+  {
+    "residue_name": "THR",
+    "residue_number": 7,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 79
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 80
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 81
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 82
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 83
+      },
+      {
+        "atom_name": "HB",
+        "atom_index": 84
+      },
+      {
+        "atom_name": "CG2",
+        "atom_index": 85
+      },
+      {
+        "atom_name": "HG21",
+        "atom_index": 86
+      },
+      {
+        "atom_name": "HG22",
+        "atom_index": 87
+      },
+      {
+        "atom_name": "HG23",
+        "atom_index": 88
+      },
+      {
+        "atom_name": "OG1",
+        "atom_index": 89
+      },
+      {
+        "atom_name": "HG1",
+        "atom_index": 90
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 91
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 92
+      }
+    ]
+  },
+  {
+    "residue_name": "PRO",
+    "residue_number": 8,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 93
+      },
+      {
+        "atom_name": "CD",
+        "atom_index": 94
+      },
+      {
+        "atom_name": "HD2",
+        "atom_index": 95
+      },
+      {
+        "atom_name": "HD3",
+        "atom_index": 96
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 97
+      },
+      {
+        "atom_name": "HG2",
+        "atom_index": 98
+      },
+      {
+        "atom_name": "HG3",
+        "atom_index": 99
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 100
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 101
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 102
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 103
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 104
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 105
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 106
+      }
+    ]
+  },
+  {
+    "residue_name": "ASX",
+    "residue_number": 9,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 107
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 108
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 109
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 110
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 111
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 112
+      },
+      {
+        "atom_name": "OD1",
+        "atom_index": 113
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 114
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 115
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 116
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 117
+      }
+    ]
+  },
+  {
+    "residue_name": "ALA",
+    "residue_number": 10,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 118
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 119
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 120
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 121
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 122
+      },
+      {
+        "atom_name": "HB1",
+        "atom_index": 123
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 124
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 125
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 126
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 127
+      }
+    ]
+  },
+  {
+    "residue_name": "ARG",
+    "residue_number": 11,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 128
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 129
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 130
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 131
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 132
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 133
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 134
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 135
+      },
+      {
+        "atom_name": "HG2",
+        "atom_index": 136
+      },
+      {
+        "atom_name": "HG3",
+        "atom_index": 137
+      },
+      {
+        "atom_name": "CD",
+        "atom_index": 138
+      },
+      {
+        "atom_name": "HD2",
+        "atom_index": 139
+      },
+      {
+        "atom_name": "HD3",
+        "atom_index": 140
+      },
+      {
+        "atom_name": "NE",
+        "atom_index": 141
+      },
+      {
+        "atom_name": "HE",
+        "atom_index": 142
+      },
+      {
+        "atom_name": "CZ",
+        "atom_index": 143
+      },
+      {
+        "atom_name": "NH1",
+        "atom_index": 144
+      },
+      {
+        "atom_name": "HH11",
+        "atom_index": 145
+      },
+      {
+        "atom_name": "HH12",
+        "atom_index": 146
+      },
+      {
+        "atom_name": "NH2",
+        "atom_index": 147
+      },
+      {
+        "atom_name": "HH21",
+        "atom_index": 148
+      },
+      {
+        "atom_name": "HH22",
+        "atom_index": 149
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 150
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 151
+      }
+    ]
+  },
+  {
+    "residue_name": "VAL",
+    "residue_number": 12,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 152
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 153
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 154
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 155
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 156
+      },
+      {
+        "atom_name": "HB",
+        "atom_index": 157
+      },
+      {
+        "atom_name": "CG1",
+        "atom_index": 158
+      },
+      {
+        "atom_name": "HG11",
+        "atom_index": 159
+      },
+      {
+        "atom_name": "HG12",
+        "atom_index": 160
+      },
+      {
+        "atom_name": "HG13",
+        "atom_index": 161
+      },
+      {
+        "atom_name": "CG2",
+        "atom_index": 162
+      },
+      {
+        "atom_name": "HG21",
+        "atom_index": 163
+      },
+      {
+        "atom_name": "HG22",
+        "atom_index": 164
+      },
+      {
+        "atom_name": "HG23",
+        "atom_index": 165
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 166
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 167
+      }
+    ]
+  },
+  {
+    "residue_name": "ILE",
+    "residue_number": 13,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 168
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 169
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 170
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 171
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 172
+      },
+      {
+        "atom_name": "HB",
+        "atom_index": 173
+      },
+      {
+        "atom_name": "CG2",
+        "atom_index": 174
+      },
+      {
+        "atom_name": "HG21",
+        "atom_index": 175
+      },
+      {
+        "atom_name": "HG22",
+        "atom_index": 176
+      },
+      {
+        "atom_name": "HG23",
+        "atom_index": 177
+      },
+      {
+        "atom_name": "CG1",
+        "atom_index": 178
+      },
+      {
+        "atom_name": "HG12",
+        "atom_index": 179
+      },
+      {
+        "atom_name": "HG13",
+        "atom_index": 180
+      },
+      {
+        "atom_name": "CD1",
+        "atom_index": 181
+      },
+      {
+        "atom_name": "HD11",
+        "atom_index": 182
+      },
+      {
+        "atom_name": "HD12",
+        "atom_index": 183
+      },
+      {
+        "atom_name": "HD13",
+        "atom_index": 184
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 185
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 186
+      }
+    ]
+  },
+  {
+    "residue_name": "SER",
+    "residue_number": 14,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 187
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 188
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 189
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 190
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 191
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 192
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 193
+      },
+      {
+        "atom_name": "OG",
+        "atom_index": 194
+      },
+      {
+        "atom_name": "HG",
+        "atom_index": 195
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 196
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 197
+      }
+    ]
+  },
+  {
+    "residue_name": "ARG",
+    "residue_number": 15,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 198
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 199
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 200
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 201
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 202
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 203
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 204
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 205
+      },
+      {
+        "atom_name": "HG2",
+        "atom_index": 206
+      },
+      {
+        "atom_name": "HG3",
+        "atom_index": 207
+      },
+      {
+        "atom_name": "CD",
+        "atom_index": 208
+      },
+      {
+        "atom_name": "HD2",
+        "atom_index": 209
+      },
+      {
+        "atom_name": "HD3",
+        "atom_index": 210
+      },
+      {
+        "atom_name": "NE",
+        "atom_index": 211
+      },
+      {
+        "atom_name": "HE",
+        "atom_index": 212
+      },
+      {
+        "atom_name": "CZ",
+        "atom_index": 213
+      },
+      {
+        "atom_name": "NH1",
+        "atom_index": 214
+      },
+      {
+        "atom_name": "HH11",
+        "atom_index": 215
+      },
+      {
+        "atom_name": "HH12",
+        "atom_index": 216
+      },
+      {
+        "atom_name": "NH2",
+        "atom_index": 217
+      },
+      {
+        "atom_name": "HH21",
+        "atom_index": 218
+      },
+      {
+        "atom_name": "HH22",
+        "atom_index": 219
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 220
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 221
+      }
+    ]
+  },
+  {
+    "residue_name": "PHE",
+    "residue_number": 16,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 222
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 223
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 224
+      },
+      {
+        "atom_name": "HA",
+        "atom_index": 225
+      },
+      {
+        "atom_name": "CB",
+        "atom_index": 226
+      },
+      {
+        "atom_name": "HB2",
+        "atom_index": 227
+      },
+      {
+        "atom_name": "HB3",
+        "atom_index": 228
+      },
+      {
+        "atom_name": "CG",
+        "atom_index": 229
+      },
+      {
+        "atom_name": "CD1",
+        "atom_index": 230
+      },
+      {
+        "atom_name": "HD1",
+        "atom_index": 231
+      },
+      {
+        "atom_name": "CE1",
+        "atom_index": 232
+      },
+      {
+        "atom_name": "HE1",
+        "atom_index": 233
+      },
+      {
+        "atom_name": "CZ",
+        "atom_index": 234
+      },
+      {
+        "atom_name": "HZ",
+        "atom_index": 235
+      },
+      {
+        "atom_name": "CE2",
+        "atom_index": 236
+      },
+      {
+        "atom_name": "HE2",
+        "atom_index": 237
+      },
+      {
+        "atom_name": "CD2",
+        "atom_index": 238
+      },
+      {
+        "atom_name": "HD2",
+        "atom_index": 239
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 240
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 241
+      }
+    ]
+  },
+  {
+    "residue_name": "GLY",
+    "residue_number": 17,
+    "atoms": [
+      {
+        "atom_name": "N",
+        "atom_index": 242
+      },
+      {
+        "atom_name": "H",
+        "atom_index": 243
+      },
+      {
+        "atom_name": "CA",
+        "atom_index": 244
+      },
+      {
+        "atom_name": "HA2",
+        "atom_index": 245
+      },
+      {
+        "atom_name": "HA3",
+        "atom_index": 246
+      },
+      {
+        "atom_name": "C",
+        "atom_index": 247
+      },
+      {
+        "atom_name": "O",
+        "atom_index": 248
+      },
+      {
+        "atom_name": "OXT",
+        "atom_index": 249
+      }
+    ]
+  }
+]
