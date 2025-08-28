@@ -59,10 +59,10 @@ python entropy_compiler.py --system_name <SYSTEM> --region backbone --temperatur
 
 ```
 
-## Example Run (Model System: FC_WT/no exclusion: all)
+## Example Run — FC_WT (Region: all, no filtering)
 
 ```bash
-# 1) Amber prmtop and nc clean up
+# 1) Amber .prmtop and .nc clean up
 # Load topology
 parm fc_wt.prmtop
 
