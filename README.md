@@ -66,13 +66,13 @@ python entropy_compiler.py --system_name <SYSTEM> --region backbone --temperatur
 parm fc_wt.prmtop
 trajin md.nc 1 100000 1
 strip !(:1-17)
-trajout cleaned_nc netcdf4
+trajout ./dataset/cleaned_fc_wt.nc netcdf4
 run
 quit
 
 parm fc_wt.prmtop
 parmstrip !(:1-17)
-parmwrite out cleaned_prmtop.prmtop
+parmwrite out ./dataset/cleaned_fc_wt.prmtop
 run
 quit
 
