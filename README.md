@@ -38,7 +38,10 @@ pip install mdtraj numpy numba tqdm
 # (conda-forge alternative)
 # conda install -c conda-forge mdtraj netcdf4 numpy numba tqdm
 
+---
+
 ## Quick-Start
+
 # 1) Trajectory → BAT (writes to output/all/<SYSTEM>)
 python scripts/traj2bat.py --system_name <SYSTEM> -v
 
