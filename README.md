@@ -40,7 +40,6 @@ pip install mdtraj numpy numba tqdm
 
 ## Quick-Start
 
-'''bash
 # 1) Trajectory → BAT (writes to output/all/<SYSTEM>)
 python scripts/traj2bat.py --system_name <SYSTEM> -v
 
