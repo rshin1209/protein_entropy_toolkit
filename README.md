@@ -1,4 +1,4 @@
-# traj2bat-entropy
+# protein_entropy_toolkit
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
@@ -29,17 +29,15 @@ End-to-end toolkit to:
 
 ```bash
 # (recommended) create env
-conda create -n bat python=3.10 -y
-conda activate bat
+conda create -n eps python=3.10 -y
+conda activate eps
 
 # core deps
 pip install mdtraj numpy numba tqdm
 
 # (conda-forge alternative)
 # conda install -c conda-forge mdtraj numpy numba tqdm
-'''
-
----
+'''bash
 
 ## Quick-Start
 
