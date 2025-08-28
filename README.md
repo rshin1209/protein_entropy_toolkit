@@ -36,7 +36,8 @@ conda activate bat
 pip install mdtraj numpy numba tqdm
 
 # (conda-forge alternative)
-# conda install -c conda-forge mdtraj netcdf4 numpy numba tqdm
+# conda install -c conda-forge mdtraj numpy numba tqdm
+'''
 
 ---
 
