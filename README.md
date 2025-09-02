@@ -7,7 +7,7 @@
 End-to-end toolkit to:
 - convert MD trajectories to **internal coordinates (BAT)**,
 - enumerate **bonds / angles / torsions** from topology,
-- compute **1D entropies** and **pairwise mutual information (MI)** with **Jacobian** + **Miller–Madow** corrections,
+- compute **1D entropies** and **pairwise mutual information (MI)** with **Jacobian**,
 - estimate final configurational entropy via a **MIST**-style reduction.
 
 **Inputs:** AMBER `*.nc` + one `*.prmtop`  
@@ -20,7 +20,7 @@ End-to-end toolkit to:
 - Topology enumeration: unique simple paths of length 2/3/4
 - Residue/atom map (`res_data.json`) with **0-based** `atom_index`
 - Optional filtering: **backbone** (N, CA, C, O) or **noH** (exclude H*)
-- Entropy/MI (Numba): **Jacobian** (bond \(r^2\), angle \(\sin\theta\), torsion 1) + **Miller–Madow**
+- Entropy/MI (Numba): **Jacobian** (bond \(r^2\), angle \(\sin\theta\), torsion 1)
 - Final entropy (kcal/mol) using **MIST** (max off-diagonal MI per DoF, diagonal excluded)
 
 ---
