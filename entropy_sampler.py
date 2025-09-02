@@ -13,7 +13,6 @@ Notes
 -----
 - 1D entropies with Jacobian correction (bond r^2, angle sin(theta), torsion 1)
 - 2D joint entropies similarly corrected
-- Miller–Madow correction applied (histogram-based)
 """
 
 from __future__ import annotations
@@ -161,7 +160,7 @@ def compute_entropy_1D_numba(dof: np.ndarray, jtype: int, bins: int, min_val: fl
             jacobian = get_jacobian_1D(jtype, i, min_val, dx if dx > 0 else 1.0)
             entropy_sum += -p * np.log(p / (jacobian * (dx if dx > 0 else 1.0)))
 
-    # Miller–Madow
+    # Correction
     n_non_zero = 0
     for i in range(bins):
         if counts[i] > 0:
@@ -211,7 +210,7 @@ def compute_joint_entropy(dof1: np.ndarray, dof2: np.ndarray,
                 jac = get_jacobian_2D(i, j, xjtype, yjtype, min_x, dx if dx > 0 else 1.0, min_y, dy if dy > 0 else 1.0)
                 entropy_sum += -p * np.log(p / (jac * (dx if dx > 0 else 1.0) * (dy if dy > 0 else 1.0)))
 
-    # Miller–Madow
+    # Correction
     n_non_zero = 0
     for i in range(bins):
         for j in range(bins):
