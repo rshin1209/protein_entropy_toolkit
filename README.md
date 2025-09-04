@@ -1,4 +1,5 @@
 # protein_entropy_toolkit
+## ZJYgroup At Vanderbilt University
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
@@ -117,3 +118,5 @@ python entropy_sampler.py --system_name fc_wt --temperature 300.0 -v
 [INFO] MIST_bond=236.893183, MIST_angle=236.400570, MIST_torsion=310.480063
 [INFO] FINAL ENTROPY (kcal/mol) = -1601.230950
 ```
+## Contact
+For any questions, please contact wook.shin@vanderbilt.edu.
